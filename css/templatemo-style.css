@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5 {
   top: 0;
   left: 0;
   z-index: 1;
-  background: rgba(92, 180, 142, 0.4);
+  background: rgba(255,255,255,.01)   ;
 }
 
 #page-content {
@@ -446,7 +446,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .show-menu {
-  background: rgba(92, 180, 142, 0.5);
+  background: rgba(255,255,255,.01);
   display: none;
 }
 .show-menu li {
@@ -639,7 +639,7 @@ h1, h2, h3, h4, h5 {
   position: relative;
   z-index: 11;
   padding: 14px 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.);
   margin-top: 30px;
 }
 .site-footer a {
