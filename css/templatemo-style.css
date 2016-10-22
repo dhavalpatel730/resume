@@ -258,13 +258,16 @@ h1, h2, h3, h4, h5 {
 }
 
 .box-content {
-  background: white;
+  background: rgba(250, 250, 250,.3);
+    -webkit-border-radius: 20px;
+  border-radius: 20px;
   color: #555;
   font-family: 'robotolight';
   padding: 30px;
   margin-top: 30px;
 }
 .box-content .widget-title {
+    
   font-size: 22px;
   color: #333;
   font-family: 'robotolight';
@@ -346,7 +349,7 @@ h1, h2, h3, h4, h5 {
   position: relative;
   z-index: 10;
   padding: 14px 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.0);
 }
 
 .phone-info a {
@@ -398,19 +401,27 @@ h1, h2, h3, h4, h5 {
 }
 
 .homebutton {
-  background: #207d59;
+  background: rgba(32, 125, 89,.8);
+    -webkit-border-radius: 20px;
+  border-radius: 20px;
 }
 
 .aboutbutton {
-  background: #3b5b8e;
+  background: rgba(59, 91, 142,.8);
+    -webkit-border-radius: 20px;
+  border-radius: 20px;
 }
 
-.projectbutton {
-  background: #5c9faf;
+.experiencebutton {
+  background: rgba(184, 91, 83,.8);
+    -webkit-border-radius: 20px;
+  border-radius: 20px;
 }
 
 .contactbutton {
-  background: #b85b53;
+  background: rgba(255,255,255,.09);
+    -webkit-border-radius: 20px;
+  border-radius: 20px;
 }
 
 .logo-top-margin {
@@ -557,7 +568,7 @@ h1, h2, h3, h4, h5 {
   background: #5cb48e;
 }
 
-/*------ projects ------ */
+/*------ experience ------ */
 .gallery-section .project-item {
   margin-bottom: 30px;
 }
@@ -610,6 +621,7 @@ h1, h2, h3, h4, h5 {
 .project-pages a:hover {
   background: #5cb48e;
   color: white;
+    
 }
 
 /*------ contact ------ */
